@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/h">
             <H/>
           </Route> 
-          <Redirect to="/h"/>
+          
           <Route exact path="/h/a">
             <A/>
           </Route>
