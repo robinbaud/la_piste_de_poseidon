@@ -20,7 +20,7 @@ function App() {
         <Switch>
           <Route exact path="/h">
             <H/>
-            <Redirect to="/h"/>
+            
           </Route> 
           
           <Route exact path="/h/a">
@@ -35,6 +35,7 @@ function App() {
           <Route exact path="/h/a/va/n/e">
             <E/>
           </Route>
+          <Redirect to="/h"/>
         </Switch>
       </div>
     </Router>

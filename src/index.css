@@ -35,3 +35,11 @@
 .page h2{
   padding: 20px 10px;
 }
+
+a{
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 2px 2px 5px blue;
+}
