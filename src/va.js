@@ -6,7 +6,7 @@ const Va = () =>{
     const [value, setValue] = useState('');
     console.log(value);
 
-    const compare = (e) =>{
+     const compare = (e) =>{
         e.preventDefault()
                 if(motdepasse === value){
                     console.log('bravo!!!');
