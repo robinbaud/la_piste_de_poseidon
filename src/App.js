@@ -20,6 +20,7 @@ function App() {
         <Switch>
           <Route exact path="/h">
             <H/>
+            <Redirect to="/h"/>
           </Route> 
           
           <Route exact path="/h/a">
