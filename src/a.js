@@ -6,15 +6,16 @@ const A = () =>{
     const motdepasse = "neil";
     const [value, setValue] = useState('');
     console.log(value);
-    const compare = () =>{
-        if(motdepasse === value){
-            console.log('bravo!!!');
-            let path = `/h/a/va`; 
-            history.push(path);
-        }else{
-            console.log('essaie encore')
-        }
-    }
+    const compare = (e) =>{
+        e.preventDefault()
+                if(motdepasse === value){
+                    console.log('bravo!!!');
+                    let path = `/h/a/va`; 
+                    history.push(path);
+                }else{
+                    console.log('essaie encore')
+                }
+            }
     
     return(
         <div className="page">
