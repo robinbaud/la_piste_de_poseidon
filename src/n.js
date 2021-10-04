@@ -19,16 +19,19 @@ const N = () =>{
 
     return(
         <div className="page">
-            <h2 className="titre"> Lorem ipsum dolor sit.</h2>
-            <p className="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Alias doloremque, consequuntur facere labore quidem delectus, obcaecati aperiam eius explicabo assumenda 
-            odio numquam ipsa adipisci saepe in nihil dolorum cum dolore itaque quia? Architecto culpa perferendis, 
-            similique 
+            <h2 className="titre"> Le test final commence</h2>
+            <p className="intro">Après avoir traversé le pont qui me permet de passer au-dessus le fleuve d’acide
+             je me retrouve à la dernière étape de ma quête, mais pour que je vous dévoile le dernier indice 
+             vous devrez battre ma propre énigme, vous devez prouver votre valeur et votre intelligence, c’est 
+             la seule façon que j'ai de vous savoir digne sans même vous avoir connu.
+            “Sur le navire, flottant sur le fleuve d’acide, proche de l’extrémité de sa proue, vous trouverez 
+            deux fauves scrutant l’horizon et 4 paires de gardiens qui protègent le nom de leur propriétaire disparu”
+
                 
                 
             </p>
             <p className="message">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi!
+                decouvrer ce lieu et envoyer la photo a josephine pour commencer votre test 
             </p>
             <form action="">
                 <input className="test" type="text" onChange={event => setValue(event.target.value)}/>  

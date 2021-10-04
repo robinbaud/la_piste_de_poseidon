@@ -3,7 +3,7 @@ const H = () =>{
     return(
         <div className="page">
             <h2 className="titre"> Bienvenue cher nouveaux année 1</h2>
-            <p className="intro">Je m'appelle Maxou et dans ma réalité la terre n'est plus qu'un vatse desert radioactif et
+            <p className="intro">Je m'appelle Maxou et dans ma réalité la terre n'est plus qu'un vaste desert radioactif et
                 cette ville n'est plus qu'un vestige depourvu de vie.
                 Cela fait des jour que je n'ai pas bu une goutte d'eau. Elle est devenue rare de nos jours et le fleuve est devenu acide.
                 <br />

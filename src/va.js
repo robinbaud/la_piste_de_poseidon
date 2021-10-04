@@ -20,20 +20,18 @@ const Va = () =>{
     return(
         <div className="page">
             <h2 className="titre"> Lorem ipsum dolor sit.</h2>
-            <p className="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Alias doloremque, consequuntur facere labore quidem delectus, obcaecati aperiam eius explicabo assumenda 
-            odio numquam ipsa adipisci saepe in nihil dolorum cum dolore itaque quia? Architecto culpa perferendis, 
-            similique 
-            <br />
-            repudiandae eligendi magni in cupiditate 
-            aliquam harum labore amet porro eius, quisquam numquam adipisci minus iure mollitia? 
-            Est incidunt laborum maxime. Sequi eius tenetur asperiores recusandae, nemo quod architecto 
-            perferendis aliquam impedit, odio cum?
+            <p className="intro">La prochaine étape de ma traversée ne se situe pas loin de la première
+             en distance, mais loin en altitude, pour obtenir l’indice il faudra réarranger ce message 
+             coder “es osipsson li nupiseson ecva sel lurvenso tafu etmret el vleufe iqu ne d’cedai” je n’ai 
+             pas totalement réussi à décerner ce message, mais je suis quand même arriver à 
+             restructurer sa phrase. 
                 
                 
             </p>
             <p className="message">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi!
+                Pour obtenir cette aide de ma part vous devrez prendre en photo une 
+             des différentes poissonneries qui ont réussi à survivre à l’apocalypse et envoyez-la à Josephine 
+             pour qu'elle vous donne l’indice
             </p>
             <form action="">
                 <input className="test" type="text" onChange={event => setValue(event.target.value)}/>  
