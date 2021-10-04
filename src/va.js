@@ -19,7 +19,7 @@ const Va = () =>{
 
     return(
         <div className="page">
-            <h2 className="titre"> Lorem ipsum dolor sit.</h2>
+            <h2 className="titre"> Felicitation, mais ce n'est que maintenant que le jeu commence.</h2>
             <p className="intro">La prochaine étape de ma traversée ne se situe pas loin de la première
              en distance, mais loin en altitude, pour obtenir l’indice il faudra réarranger ce message 
              coder “es osipsson li nupiseson ecva sel lurvenso tafu etmret el vleufe iqu ne d’cedai” je n’ai 
@@ -29,9 +29,9 @@ const Va = () =>{
                 
             </p>
             <p className="message">
-                Pour obtenir cette aide de ma part vous devrez prendre en photo une 
-             des différentes poissonneries qui ont réussi à survivre à l’apocalypse et envoyez-la à Josephine 
-             pour qu'elle vous donne l’indice
+                Pour obtenir cette aide de ma part, quatre d'entre vous devront abandonner leur ego et faire la tête 
+                la plus absurde qui soit devant l'une des différentes poissonneries qui ont réussi à survivre à l’apocalypse et envoyez-la à Josephine 
+                pour qu'elle vous donne l’indice.
             </p>
             <form action="">
                 <input className="test" type="text" onChange={event => setValue(event.target.value)}/>  
